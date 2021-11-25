@@ -42,7 +42,7 @@ body{
 }
 #status{
   width: 40vw;
-  height: 2vh;
+  /* height: 2vh; */
   text-align: center;
   padding: 4px;
   color: white;
@@ -63,9 +63,7 @@ top: 60px;
 .item:hover{
   background: rgba(255, 255, 255, 0.1);
 }
-#game_finish{
-display:none;
-}
+
 
 img{
     height: 100px;
@@ -182,3 +180,9 @@ button {
   button:hover{
     background: rgba(255, 255, 255, 0.1);
   }
+#game_finish{
+    display:none;
+    font-size: 2rem;
+    text-align: center;
+
+}
