@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'El Messiri', sans-serif;
+ }
+
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(143deg,#a878d8,#d8a8d8,#f0d8f0);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.abx{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  
+}
+.box{
+  height: 80vh;
+  width: 40vw;
+  background-color: rgba(255,255,255,0.2);
+  position: relative;
+  top: 10vh;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0,0.1);
+  border-radius: 5px;
+  z-index: 1;
+  position: absolute;
+}
+.logo{
+  height: 30vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  height: 25vh;
+  width: 25vh;
+  position: relative;
+  top: 10px;
+}
+input {
+  width: 80%;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 10px;
+  padding-left: 40px;
+  border-radius: 15px;
+  color:white;
+  font-size: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.player{
+  margin: 10px;
+}
+.form{
+  height: 40vh;
+  width: 40vw;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+}
+
+ul{
+  z-index: -1;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+li{
+  list-style-type: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: -1000;
+  backdrop-filter: blur(20px);
+  animation: bubbles 7s linear infinite;
+}
+@keyframes bubbles {
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(10px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.bubble1{
+  animation-delay: 2s;
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  top: 500px;
+}
+.bubble2{
+  animation-delay: 0s;
+  height: 8vh;
+  width: 8vh;
+  position: relative;
+  top: 100px;
+}
+.bubble3{
+  animation-delay: 3s;
+  height: 18vh;
+  width: 18vh;
+  position: relative;
+  top: 200px;
+}
+.bubble4{
+  animation-delay: 4.5s;
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  top: 300px;
+  left: 1000px;
+}
+.bubble5{
+  animation-delay: 0s;
+  height: 10vh;
+  width: 10vh;
+  position: relative;
+  top: 600px;
+}
+.bubble6{
+  animation-delay: 7s;
+  height: 20vh;
+  width: 20vh;
+  position: relative;
+  top: 200px;
+}
+.bubble7{
+  animation-delay: 4s;
+  height: 20vh;
+  width: 20vh;
+  position: relative;
+  top: 100px;
+}
+.bubble6{
+  animation-delay: 7s;
+  height: 20vh;
+  width: 20vh;
+  position: relative;
+  top: 500px;
+}
+button {
+  width: 40%;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 8px 10px;
+  padding-left: 40px;
+  border-radius: 15px;
+  color:black;
+  font-size: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  position: relative;
+  top: 20px;
+  left: 20vw;
+
+}
+button:hover{
+  background: rgba(255, 255, 255, 0.1);
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+::placeholder { 
+  color: white;
+
+}
